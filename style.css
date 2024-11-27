@@ -86,6 +86,9 @@ body {
 
 /* mobile phone */
 @media (max-width: 576px) {
+    .hero h1 {
+        font-size: 60px;
+    }
     .simply-countdown > .simply-section {
         padding: 30px;
     }
