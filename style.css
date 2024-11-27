@@ -48,11 +48,11 @@ body {
 
 .hero h1 {
     font-family: "Sacramento", cursive;
-    font-size: 65px;
+    font-size: 3rem;
 }
 
 .hero h4 {
-    font-size: 1.4rem;
+    font-size: 0.8rem;
 }
 
 .hero p {
@@ -69,32 +69,36 @@ body {
     background-color: var(--pink);
 }
 
-/* media query */
-/* Laptop */
-@media (max-width: 992px) {
-    .simply-countdown > .simply-section {
-        padding: 70px;
-    }
+.mynavbar {}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.2rem;
 }
 
+/* media query */
 /* Tablet */
 @media (max-width: 768px) {
     .simply-countdown > .simply-section {
         padding: 40px;
     }
+
+    .simply-countdown > .simply-section .simply-amount,
+    .simply-countdown > .simply-section .simply-word {
+        font-size: 1rem;
+    }
 }
 
 /* mobile phone */
 @media (max-width: 576px) {
-    .hero h1 {
-        font-size: 60px;
-    }
+    
     .simply-countdown > .simply-section {
         padding: 30px;
     }
 
     .simply-countdown > .simply-section .simply-amount,
     .simply-countdown > .simply-section .simply-word {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 }
